@@ -1,0 +1,44 @@
+.footer-icon {
+  align-items: baseline;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
+}
+
+.footer-icon__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primari-white-color);
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.footer-icon__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-icon__link {
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}

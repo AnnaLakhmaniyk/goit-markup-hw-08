@@ -1,0 +1,79 @@
+.hero {
+    background-color: #2f303a;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)),
+        url(../imag/jpg/header/header-mob-1x.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../imag/jpg/header/header-mob-2x.jpeg);
+}
+@media screen and (min-width: 768px){
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../imag/jpg/header/header-tab-1x.jpeg);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../imag/jpg/header/header-tab-2x.jpeg);}
+}
+@media screen and (min-width: 1200px){
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../imag/jpg/header/header-dc-1x.jpeg);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../imag/jpg/header/header-dc-2x.jpeg); }
+}
+
+}
+
+.hero-content {
+padding: 118px 0 118px;
+
+@media screen and (min-width: 1200px) {
+    padding: 200px 0 200px;
+}
+}
+
+.hero-content__title {
+    color: var(--primari-white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto ;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 360px;
+
+    @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+    }
+  
+}
+
+.hero-content__button {
+    display: block;
+    align-items: center;
+    margin: 0 auto;}
